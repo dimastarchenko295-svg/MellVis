@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "ru.mellvis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinClientPlayerEntity",
+    "MixinInGameHud",
+    "MixinLivingEntityRenderer",
+    "MixinClientPlayNetworkHandler"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
