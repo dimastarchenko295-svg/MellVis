@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "mellvis",
+  "version": "${version}",
+  "name": "MellVis",
+  "description": "A Fabric 1.21.4 visual client with HUD, ClickGUI, particles and legitimate utility swaps.",
+  "authors": ["MellVis"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["ru.mellvis.MellVisClient"]
+  },
+  "mixins": ["mellvis.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
